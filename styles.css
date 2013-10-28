@@ -1,0 +1,14 @@
+p,li,input,textarea 	{ font-family: 'Nunito', sans-serif; font-size: 15px; }
+h1,h2,h3,h4 			{ font-family: 'Nunito', sans-serif; }
+
+.form-background 		{ width: 650px; height: 400px; background: #dadada; margin: 0 auto; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
+h2 						{ margin-left: 60px; padding-top: 20px; }
+form 					{ margin: 20px; }
+form ul 				{ list-style: none; }
+form ul li 				{ padding-bottom: 10px; }
+.text-input 			{ width: 435px; height: 46px; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border: 1px solid #e5d4c2; background: #f7f7f7; }
+textarea 				{ background: #f7f7f7; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; border: 1px solid #e5d4c2; height: 125px; width: 434px; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder 	{ font-size: 15px; }
+
+input[type=submit] 		{ background: red; border-radius: 6px; border: 0; width: 135px; height: 45px; }
+input[type=submit]:hover { opacity: .7; cursor: pointer; }
